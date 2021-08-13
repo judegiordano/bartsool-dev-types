@@ -1,0 +1,32 @@
+{
+  "name": "@barstool-dev/types",
+  "version": "1.0.0",
+  "description": "barstool challenge dev types",
+  "types": "lib/index.d.ts",
+  "main": "lib/index.js",
+  "scripts": {
+    "lint": "eslint --fix --ext .ts,.tsx .",
+    "prebuild": "npm run lint",
+    "build": "tsc -p .",
+    "link": "npm link",
+    "release": "npm run build && npm publish",
+    "package": "npm run build && npm pack",
+    "package-light": "npm run build && npm pack --dry-run",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/dotenv": "^8.2.0",
+    "@types/jest": "^26.0.23",
+    "@types/node": "^15.12.2",
+    "@typescript-eslint/eslint-plugin": "^4.27.0",
+    "@typescript-eslint/parser": "^4.27.0",
+    "dotenv": "^10.0.0",
+    "eslint": "^7.28.0",
+    "jest": "^27.0.4",
+    "ts-jest": "^27.0.3",
+    "ts-node": "^10.0.0",
+    "typescript": "^4.3.2"
+  },
+  "author": "Jude Giordano",
+  "license": "ISC"
+}
