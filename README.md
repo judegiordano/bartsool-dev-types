@@ -13,3 +13,6 @@ npm package
 //
 npm install /path/to/your/module/<YourModule>-<YourModulesVersion>.tgz
 ```
+
+# Installing Live
+npm i git+https://github.com/judegiordano/bartsool-dev-types.git
