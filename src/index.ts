@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import * as MLB from "./Types/Mlb";
 import * as NBA from "./Types/Nba";
 
