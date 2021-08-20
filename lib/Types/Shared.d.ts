@@ -40,9 +40,11 @@ export interface IOffical {
  * Generic IGame object
  */
 export interface IGame {
+    league: string;
+    away_period_scores: number[];
+    home_period_scores: number[];
     away_team: ITeamInfo;
     home_team: ITeamInfo;
-    league: string;
     event_information: IEvent;
     officials: IOffical[];
 }

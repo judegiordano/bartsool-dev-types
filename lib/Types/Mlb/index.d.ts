@@ -123,8 +123,6 @@ export interface IBatterTotal {
  * @interface IMLBGameData
  */
 export interface IMLBGameData extends IGame {
-    away_period_scores: number[];
-    home_period_scores: number[];
     away_errors: number;
     home_errors: number;
     away_batters: IBatter[];

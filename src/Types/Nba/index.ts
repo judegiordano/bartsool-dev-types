@@ -54,8 +54,6 @@ export interface IStatTotals {
  * @interface INBAGameData
  */
 export interface INBAGameData extends IGame {
-	away_period_scores: number[],
-	home_period_scores: number[],
 	away_stats: IPlayerStats[],
 	home_stats: IPlayerStats[],
 	away_totals: IStatTotals,
